@@ -1,0 +1,27 @@
+
+Usar a 'in' é simplesmente se traduz em b.__contains__(a), que deve retornar se b incluir a ou não.
+
+listOfNums = [ 1, 2, 3, 4, 5, 6, 45, 'j' ]
+
+>>> 3 in listOfNums:
+>>> True
+
+>>> 'j' in listOfNums:
+>>> True
+
+>>> 66 in listOfNums:
+>>> False
+
+>>> "in" in "indigo"
+True
+>>> "in" in "violet"
+False
+>>> "0" in "10"
+True
+>>> "1" in "10"
+True
+>>> '1' in '123'
+True
+>>>1 in '123'
+False
+
