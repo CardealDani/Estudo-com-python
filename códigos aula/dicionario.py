@@ -3,10 +3,18 @@
 
 # dici = {'chave':valor'}
 
-dados = {'nome':'bianka','sexo':'feminino'}
-print(dados)
-dados.update({'sobrenome':'costa'})
-print(dados)
+dados =  {
+    'nome':'bianka',
+    'sexo':'feminino',
+    'idade':'19',
+    'namorado':'levi'
+          }
+
+
+
+for k,i in dados.items():
+    print(k)
+
 
 
 
